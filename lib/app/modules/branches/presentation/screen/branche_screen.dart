@@ -66,7 +66,7 @@ double long = 30.0020816;
                                 widget: Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Text(data[i]['status_ar']),
+                                    Text(data[i]['title']['ar']),
                                     //   Spacer(),
                                     ///Text('الفرع الان'),
                                   ],
