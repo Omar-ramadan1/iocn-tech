@@ -1,0 +1,54 @@
+Hello,
+in this project , i have decided to make it in 3 architecture patterns,
+ (mvc - bloc pattern - bloc pattern with clean architecture),
+ you may wonder why i have decided this kind of decision,
+let me explain 
+based on our last interview , while i was explaining how i organize the progect,
+i noticed that you didn't get me well ,
+that's why i take this kind of decesion and also to show  my flexibility because i 
+don't know what's the main architecture pattern that you use,
+
+the project seperate to 4 main folders
+
+*common_widget = for the common widget in our app
+*modules = that represent the views,
+*utlis = that represent the main features of app and any thing relate to it's utilities
+*core = that represent the core features that i use and core features that i need in type  of app(that connect to serever)
+
+so according to modules , there's 3 modules
+
+login =>  that module i have made using mvc architecture(Model View Controller)
+branches => that module i have made using bloc architecture(Business Logic Component)
+products => that module i have made using bloc - clean architecture(Data - Domain - presentation)
+
+packages that i have used
+geolocator: => for getting user's location 
+google_maps_flutter: => to show the branches on google map with it's details
+shared_preferences: => to retrieve the data that i want to hold
+flutter_bloc: => as state management but app was too small to use state management
+get_it : => to access the same instance of class just as static word in flutter_bloc
+dio/http => to access data from server
+dartz => to representa value that could be one of two possibililites
+
+i hope you enjoy reviewing the code , and sorry in case of there's an error in ui i didn't test it in all andriod devices
+because of the time  and i gave more concern to the logic and functions.
+
+according to the cart item , the time didn't save me for that i have started the project late because my schedule this week n't pretty good, but i have implement it in severals project that i can show you.
+
+please if you noticed any bad practice or glitch in my code , i would be happy to be 
+informed to improve my skills,
+
+looking forward to your feedback,
+
+contact info
+phone: +201091366579
+email: omar.career47@gmail.com
+
+best regards
+Omar
+
+
+
+
+
+
